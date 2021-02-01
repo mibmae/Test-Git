@@ -1,0 +1,11 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "Il faut bien différencier Git de GitHub. Git est un programme de versionning, il nous permet de garder un historique complet de notre projet.  GitHUb est une plateforme de collaboration permettant d'y stocker et de partager nos repos Git.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
