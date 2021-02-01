@@ -52,12 +52,7 @@ Créer une branche et se déplacer dessus : `git checkout -b nomBranche`
 Se déplacer sur une autre branche : `git checkout nomBranche`
 Supprimer une branche : `git branch -D nomBranche`
 
+Fusionner deux branches : Se positionner dans celle qui va recevoir les commit de l'autre (souvent master) puis faire la commande 
+`git merge nomBranche`
 
-
-
-
-
-
-
-
-
+On attaque les conflits !
