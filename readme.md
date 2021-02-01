@@ -54,3 +54,18 @@ Supprimer une branche : `git branch -D nomBranche`
 
 Fusionner deux branches : Se positionner dans celle qui va recevoir les commit de l'autre (souvent master) puis faire la commande 
 `git merge nomBranche`
+
+
+## Les conflits 
+
+Si on merge des modifications qui changent les mêmes lignes d'un fichier, il y aura conflit : il faudra qu'on choisisse quelle version garder.
+
+
+## repo distant
+
+Si je veux rattacher mon repo local a un repo distant, il faut que j'indique le repo distant associé avec la commande `git remote add origin adressegit`. C'est ce qu'on appelle un remote.
+
+Pour supprimer une synchro -> `git remote remove nomsynchro`
+ex : `git remote remove origin`
+
+Pour lister les remote attachés a notre rpo local : `git remote -v`
