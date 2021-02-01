@@ -41,4 +41,25 @@ PS : -a est la syntaxe raccourcie pour --amend
 On veut revenir à un commit antérieur : `git reset --hard ID` ou `git checkout ID`
 
 
+## Les Branches
+
+Dans Git, on peut créer des branches pour chaque nouvelles fonctionnalité ou résolution de bugs afin de ne pas perturber le code principal et eviter de le casser.
+
+
+`git branch` : savoir sur quelle branche on est.
+Créer une branche : `git branch nomBranche`
+Créer une branche et se déplacer dessus : `git checkout -b nomBranche`
+Se déplacer sur une autre branche : `git checkout nomBranche`
+Supprimer une branche : `git branch -D nomBranche`
+
+
+git checkout -b : Crée une branche
+git checkout master
+
+
+
+
+
+
+
 
