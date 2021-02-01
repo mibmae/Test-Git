@@ -56,7 +56,7 @@ Supprimer une branche : `git branch -D nomBranche`
 
 
 
-
+Trop bien j'attaque les conflits aujourd'hui! faut dire que les conflits, j'aime bien ça :p
 
 
 
