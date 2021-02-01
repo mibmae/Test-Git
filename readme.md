@@ -53,8 +53,6 @@ Se déplacer sur une autre branche : `git checkout nomBranche`
 Supprimer une branche : `git branch -D nomBranche`
 
 
-git checkout -b : Crée une branche
-git checkout master
 
 
 
