@@ -69,3 +69,7 @@ Pour supprimer une synchro -> `git remote remove nomsynchro`
 ex : `git remote remove origin`
 
 Pour lister les remote attachés a notre rpo local : `git remote -v`
+
+Pour pusher notre travail sur le repo distant il nous faut utiliser la  commande `git push`
+Attention la premiere fois il faut preciser l'upstream de cette manière : `git push -u nomRemote nomBranche`
+Exemple : `git push -u origin master`
